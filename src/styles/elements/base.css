@@ -1,7 +1,4 @@
 body {
     background-color: var(--color-second);
-    font-weight: bold; 
-    font-size: 14px; 
     font-family: 'Montserrat', sans-serif;
-    color: #707070;
 }

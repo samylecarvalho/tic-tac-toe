@@ -1,11 +1,17 @@
 import React from 'react';
-import logo from './logo.png';
-import About from './objects/About';
+import About from './objects/About/';
+import Logo from './objects/Logo/'
 
 function App() {
   return (
-    <About />
+    <>
+      <Logo />
+      <About />
+    </>
   );
 }
 
 export default App;
+
+
+

@@ -1,0 +1,7 @@
+.board {
+    box-sizing: border-box;
+    border-color: black;
+    width: 330px;
+    height: 330px;
+    background-color: aliceblue;
+}

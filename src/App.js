@@ -1,13 +1,13 @@
 import React from 'react';
+import Card from './objects/Card';
 import Header from './components/Header';
-import Board from './components/Board';
 
 
 function App() {
   return (
       <>
         <Header />
-        <Board />
+        <Card />
       </>
   );
 }

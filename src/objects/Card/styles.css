@@ -1,7 +1,9 @@
 .card {
-    box-sizing: border-box;
+    width: 290px;
+    height: 290px;
+    background-color: var(--color-zero);
     border-color: black;
-    width: 330px;
-    height: 330px;
-    background-color: rgb(46, 113, 172);
+    border-radius: var(--spacing-radius);
+    box-shadow: 0 3px 6px 0 var(--color-light-negative);
+
 }

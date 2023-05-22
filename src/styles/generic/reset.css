@@ -1,1 +1,10 @@
 @import '~normalize.css';
+
+body {
+    margin: 0;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+}

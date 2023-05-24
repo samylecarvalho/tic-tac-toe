@@ -1,6 +1,4 @@
 .card {
-    width: 290px;
-    height: 290px;
     background-color: var(--color-zero);
     border-color: black;
     border-radius: var(--spacing-radius);

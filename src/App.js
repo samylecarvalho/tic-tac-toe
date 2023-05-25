@@ -9,8 +9,8 @@ const App = () => (
       <main className="app">
         <Header />
         <Hashtag />
-        <Input id="show" value="show" content="Mostrar eventos" />
+        <Input id="show" value="show" type="checkbox" content="Mostrar eventos" />
       </main>
-  );
+  );  
 
 export default App;

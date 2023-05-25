@@ -1,8 +1,8 @@
 .label {
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 700;
+    font-weight: bold;
     line-height: 17px;
-    font-size: 1.04rem;
+    font-size: var(--size-small);
     color: var(--color-fourth);
 }

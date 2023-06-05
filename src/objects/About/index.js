@@ -1,8 +1,8 @@
 import React from "react";
-import './style.css'
+import './style.css';
 
 const About = () => {
-    return (<article href='#to-do' className="about">Samyle Carvalho</article>)
+    return (<a href="#to-do" className="about">About</a>)
 }
 
 export default About

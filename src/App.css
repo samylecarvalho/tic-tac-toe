@@ -2,25 +2,17 @@
     text-align: center;
 }
 
-.app > .header {
-    width: 80vw;
+.app .section {
+    width: 100%;
+    height: 640px; 
+    margin-bottom: 2.5rem;
+}
+
+.app  .header {
     margin: 0 auto 85px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-.app {
-    text-align: center;
-}
-
-.app > header { 
-    width: 90vw;
-    margin: 0 auto 85px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.app > .card {
+.app .card {
     display: inline-block;
     box-sizing: border-box;
     width: 90vw;

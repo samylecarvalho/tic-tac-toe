@@ -4,17 +4,20 @@ import './App.css';
 import Header from './components/Header';
 import Hashtag from './components/Hashtag';
 import Checkbox from './objects/Checkbox';
-import AboutSection from './components/AboutSection';
+import About from './objects/About';
+import AboutLink from './objects/AboutLink';
 
 const App = () => (
   <>
     <main className="app">
-      <section className="section -main">
-        <Header />
-        <Hashtag />
-        <Checkbox id="show" value="show" type="checkbox" content="Mostrar eventos" />   
-      </section>
-      <AboutSection />
+      <Header />
+      <Hashtag />
+      <Checkbox id="show" value="show" type="checkbox" content="Mostrar eventos" />   
+
+      <About>
+        <AboutLink className="-light" />  
+      </About>
+
     </main>
   </>
 );  

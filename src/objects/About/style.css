@@ -1,7 +1,8 @@
 .about {
-    font: bold 14px 'Montserrat', sans-serif;
-    color: var(--color-fourth);
-    line-height: 22px;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
+  background-color: var(--color-negative);
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

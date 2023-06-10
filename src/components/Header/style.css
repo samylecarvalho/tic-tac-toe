@@ -5,7 +5,7 @@
     padding: 20px 35px;
 }
 
-.header > .about {
+.header > .about-link {
     margin-left: auto;
     margin-right: 10px;
 }
@@ -19,7 +19,7 @@
     background-color: var(--color-negative);
 }
 
-.header.-white > .about {
+.header.-white > .about-link {
     color: #fff;
     margin-left: auto;
     margin-right: 10px;

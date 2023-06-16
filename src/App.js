@@ -6,6 +6,7 @@ import Hashtag from './components/Hashtag';
 import Checkbox from './objects/Checkbox';
 import About from './objects/About';
 import AboutLink from './objects/AboutLink';
+import IconClose from './objects/IconClose';
 
 const App = () => (
   <>
@@ -16,6 +17,7 @@ const App = () => (
 
       <About>
         <AboutLink className="-light" />  
+        <IconClose />
       </About>
 
     </main>

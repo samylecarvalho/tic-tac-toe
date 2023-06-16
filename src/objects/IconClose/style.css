@@ -1,4 +1,4 @@
-.close-button {
+.icon-close {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -6,7 +6,7 @@
     text-indent: -9999px;
 }
 
-.close-button::before, .close-button::after {
+.icon-close::before, .icon-close::after {
     content: '';
     left: 0;
     background-color: #FFF;
@@ -15,11 +15,11 @@
     border-radius: 2px;
 }
 
-.close-button::before {
+.icon-close::before {
     transform: rotate(45deg);
 }
 
-.close-button::after {
+.icon-close::after {
     transform: rotate(-45deg);
     position: absolute;
 }

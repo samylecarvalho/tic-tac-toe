@@ -1,12 +1,10 @@
 import React from 'react';
 import './App.css';
 
-import Header from './components/Header';
+import AboutSection from './components/AboutSection';
 import Hashtag from './components/Hashtag';
+import Header from './components/Header';
 import Checkbox from './objects/Checkbox';
-import About from './objects/About';
-import AboutLink from './objects/AboutLink';
-import IconClose from './objects/IconClose';
 
 const App = () => (
   <>
@@ -15,10 +13,7 @@ const App = () => (
       <Hashtag />
       <Checkbox id="show" value="show" type="checkbox" content="Mostrar eventos" />   
 
-      <About>
-        <AboutLink className="-light" />  
-        <IconClose />
-      </About>
+      <AboutSection />
 
     </main>
   </>

@@ -3,7 +3,7 @@ import "./style.css";
 
 const Title = () => (
     <h2 className="title"> 
-        Marco Bruno
+        Samyle Carvalho
     </h2>
 )
 

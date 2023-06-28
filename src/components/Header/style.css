@@ -25,11 +25,7 @@
     margin-right: 10px;
 }
 
-.header.-white > .menu {
-    width: 25px;
-    height: 20px;
-}
-
-.header.-white > .close-button {
+.header.-white > .icon-close {
     margin-top: 18px;
 }
+

@@ -6,9 +6,9 @@ import AboutLink from "../../objects/AboutLink";
 import Menu from "../../objects/Menu";
 
 
-const Header = (className = "header") => (
+const Header = ({className = ""}) => (
     <header className="header">
-        <Logo />
+        <Logo className="logo" />
         <AboutLink />
         <Menu />
     </header>

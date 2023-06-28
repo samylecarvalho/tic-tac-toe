@@ -1,12 +1,8 @@
 .description {
     display: flex;
-    width: 290px;
-    height: 72px;
+    width: 281px;
     line-height: 20px;
-    color: #FFF;
-    margin-left: auto;
-    margin-right: auto;
-    font-style: normal;
-    font-weight: normal;
+    color: var(--color-zero);
+    margin: 10px auto;
     font-size: var(--size-small);
 }

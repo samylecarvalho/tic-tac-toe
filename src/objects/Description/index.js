@@ -2,9 +2,11 @@ import React from "react";
 import "./style.css";
 
 const Description = () => (
-    <p className="description"> 
-        Migrei de palhaço para Dev. Front-End/UX e agora eu trabalho na comunidade da Impulso
-    </p>
+    <article className="description"> 
+        Brazilian based in Toronto. I have a BA in Psychology 
+        and am looking for my first Front-End/UX opportunity.
+        Currently learning HTML, CSS JavaScript and React.
+    </article>
 )
 
 export default Description;

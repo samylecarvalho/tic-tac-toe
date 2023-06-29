@@ -1,18 +1,13 @@
 import React from "react";
-import './style.css';
 import CollabLogo from '../../images/logo.png';
 import WhiteLogo from '../../images/white-logo.png';
+import './style.css';
 
-const Logo = ({className = ""}) => (
-    <img src={`${className}.png`} alt='Logo CollabCode' className={`${className}`} />) 
-
+function Logo({ className = ""}) {
+    if (className === "logo") {
+        return (<img src={CollabLogo} alt='Logo CollabCode' className="logo" />);
+    } else {
+        return (<img src={WhiteLogo} alt='Logo CollabCode' className="white-logo" />);}
+};
 
 export default Logo;
-
-// const AboutLink = ({className = ""}) => (
-//     <a href="#to-do" className={`about-link ${className}`}>
-//       About
-//     </a> 
-//   )
-  
-//   export default AboutLink;

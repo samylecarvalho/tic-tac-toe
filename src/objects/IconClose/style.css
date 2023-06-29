@@ -3,6 +3,8 @@
     flex-direction: column;
     justify-content: space-between;
     position: relative;
+    width: 22px;
+    height: 22px;
     text-indent: -9999px;
 }
 

@@ -1,8 +1,9 @@
 .header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     padding: 20px 35px;
+    height: 21px;
 }
 
 .header > .about-link {
@@ -19,8 +20,9 @@
     background-color: var(--color-negative);
 }
 
+
 .header.-white > .about-link {
-    color: #fff;
+    color: var(--color-zero);
     margin-left: auto;
     margin-right: 10px;
 }
@@ -28,4 +30,5 @@
 .header.-white > .icon-close {
     margin-top: 18px;
 }
+
 

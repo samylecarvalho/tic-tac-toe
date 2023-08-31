@@ -9,13 +9,12 @@ import Checkbox from './objects/Checkbox';
 const App = () => (
   <>
     <main className="app">
-      <Header />
-      <Hashtag />
-      <Checkbox id="show" value="show" type="checkbox" content="Mostrar eventos" />   
-    <section>
-      <AboutSection />
-    </section>
-
+      <section id="game">
+        <Header />
+        <Hashtag />
+        <Checkbox id="show" value="show" type="checkbox" content="Mostrar eventos" />   
+      </section>
+        <AboutSection />
     </main>
   </>
 );  

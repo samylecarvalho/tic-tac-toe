@@ -1,18 +1,15 @@
 .icon-close {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     position: relative;
-    width: 22px;
-    height: 22px;
+    width: 24px;
+    height: 24px;
     text-indent: -9999px;
 }
 
 .icon-close::before, .icon-close::after {
     content: '';
-    left: 0;
-    background-color: #FFF;
-    width: 30px;
+    background-color: var(--color-zero);
+    width: 100%;
     height: 4px;
     border-radius: 2px;
 }

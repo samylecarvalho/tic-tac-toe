@@ -2,33 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 35px;
-    height: 21px;
+    padding: var(--spacing-medium) var(--spacing-large);
 }
 
 .header > .about-link {
     margin-left: auto;
-    margin-right: 10px;
+    margin-right: var(--spacing-small);
 }
-
-.header > .menu {
-    width: 25px;
-    height: 20px;
-}
-
-.header.-white {
-    background-color: var(--color-negative);
-}
-
-
-.header.-white > .about-link {
-    color: var(--color-zero);
-    margin-left: auto;
-    margin-right: 10px;
-}
-
-.header.-white > .icon-close {
-    margin-top: 18px;
-}
-
 

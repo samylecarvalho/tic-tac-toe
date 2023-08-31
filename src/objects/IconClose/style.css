@@ -1,9 +1,11 @@
 .icon-close {
     display: flex;
+    align-items: center;
     position: relative;
     width: 24px;
     height: 24px;
     text-indent: -9999px;
+
 }
 
 .icon-close::before, .icon-close::after {
@@ -22,3 +24,4 @@
     transform: rotate(-45deg);
     position: absolute;
 }
+

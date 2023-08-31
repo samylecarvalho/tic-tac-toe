@@ -1,20 +1,21 @@
 import React from "react";
-// import Logo from "../../objects/Logo";
+import "./style.css";
+
+import Content from "../../objects/Content";
+import Logo from "../../objects/Logo";
 import AboutLink from "../../objects/AboutLink";
 import IconClose from "../../objects/IconClose";
-import Content from "../../objects/Content";
-import "./style.css";
+import Header from "../Header";
 
 
 const AboutSection = () => (
     <article className="section -about">    
-    <header className="header -white" >
-        {/* <Logo className="white-logo" /> */}
-        <AboutLink className="-light" />
-        <IconClose />
-    </header>
-        <Content />
-    
+        <Header className="-light">
+            <Logo className="-white" />
+            <AboutLink className="-light" />
+            <IconClose />
+        </Header>
+            <Content />
     </article>
 )
 

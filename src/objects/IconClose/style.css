@@ -8,7 +8,8 @@
 
 }
 
-.icon-close::before, .icon-close::after {
+.icon-close::before, 
+.icon-close::after {
     content: '';
     background-color: var(--color-zero);
     width: 100%;

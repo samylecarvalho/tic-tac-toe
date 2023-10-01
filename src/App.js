@@ -7,7 +7,6 @@ import Header from './components/Header';
 import Checkbox from './objects/Checkbox';
 
 const App = () => (
-  <>
     <main className="app">
       <section id="game">
         <Header />
@@ -16,7 +15,6 @@ const App = () => (
       </section>
         <AboutSection />
     </main>
-  </>
 );  
 
 export default App;

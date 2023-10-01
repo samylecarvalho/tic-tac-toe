@@ -11,7 +11,7 @@ function Header({className = ""}) {
     if (className === "-light") { 
         return (
             <header className={`header ${className}`} >
-                <LogoCollab className="-white" />
+                <LogoCollab light />
                 <AboutLink className="-light" />
                 <IconClose />
             </header>); 

@@ -1,14 +1,13 @@
 import React from "react";
 import './style.css';
-
 import CollabLogo from '../../images/logo.png';
 import WhiteLogo from '../../images/white-logo.png';
 
-function LogoCollab({ className = ""}) {
-    if (className === "-white") {
-        return (<img src={WhiteLogo} alt='Logo CollabCode' className={`logo ${className}`}/>);
-    } else {
-        return (<img src={CollabLogo} alt='Logo CollabCode' className="logo" />);}
-};
+const LogoCollab = ({ light = "false" }) =>  (
+    <img className="logo-collab" 
+        src={light ? WhiteLogo : CollabLogo} 
+        alt="Logo da CollabCode" 
+    />
+);
 
 export default LogoCollab;

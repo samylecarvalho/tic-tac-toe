@@ -7,14 +7,12 @@ import Header from './components/Header';
 import Checkbox from './objects/Checkbox';
 
 const App = () => (
-    <main className="app">
-      <section id="game">
-        <Header />
-        <Hashtag />
-        <Checkbox id="show" value="show" type="checkbox" content="Mostrar eventos" />   
-      </section>
-        <AboutSection />
-    </main>
+  <main className="app">
+      <Header />
+      <Hashtag />
+      <Checkbox id="show" value="show" type="checkbox" content="Mostrar eventos" />
+      <AboutSection />
+  </main>
 );  
 
 export default App;

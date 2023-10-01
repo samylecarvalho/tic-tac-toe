@@ -1,24 +1,24 @@
 import React from "react";
 import "./style.css";
 
-import Logo from "../../objects/Logo";
 import AboutLink from "../../objects/AboutLink";
-import Menu from "../../objects/Menu";
 import IconClose from "../../objects/IconClose";
+import LogoCollab from "../../objects/LogoCollab";
+import Menu from "../../objects/Menu";
 
 
 function Header({className = ""}) {
     if (className === "-light") { 
         return (
             <header className={`header ${className}`} >
-                <Logo className="-white" />
+                <LogoCollab className="-white" />
                 <AboutLink className="-light" />
                 <IconClose />
             </header>); 
     } else {
         return (
             <header className="header" >
-                <Logo className="logo" />
+                <LogoCollab className="logo-collab" />
                 <AboutLink />
                 <Menu />
             </header>) 

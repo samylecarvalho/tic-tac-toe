@@ -2,8 +2,8 @@ import React from "react";
 import './style.css';
 
 const About = ({children}) => 
-    <article className="about">
+    <section className="section -about">
         {children}
-    </article>;
+    </section>;
 
 export default About;

@@ -1,14 +1,13 @@
 import React from 'react';
 import './App.css';
-import Avatar from "./images/avatar.png";
 
+import HeaderInternal from './HeaderInternal';
 import Hashtag from './components/Hashtag';
 import Header from './components/Header';
-import Checkbox from './objects/Checkbox';
 import About from './objects/About';
-import HeaderInternal from './HeaderInternal';
-import AvatarProfile from './objects/AvatarProfile';
+import Checkbox from './objects/Checkbox';
 import Content from './objects/Content';
+import ProfileUser from './components/ProfileUser';
 
 const App = () => (
   <main className="app">
@@ -17,7 +16,7 @@ const App = () => (
       <Checkbox id="show" value="show" type="checkbox" content="Mostrar eventos" />
       <About>
         <HeaderInternal />
-        <AvatarProfile src={Avatar} alt={"Avatar Samyle Carvalho"} />
+        <ProfileUser />
         <Content />
       </About>      
   </main>

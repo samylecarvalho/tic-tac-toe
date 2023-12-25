@@ -1,4 +1,4 @@
-.about {
+.section.-about {
   background-color: var(--color-negative);
   width: 100vw;
   height: 100vh;
@@ -7,7 +7,7 @@
   left: 0;
 }
 
-.about > .header-internal {
+.section.-about > .header-internal {
   margin-bottom: var(--spacing-extra-large);
 }
 

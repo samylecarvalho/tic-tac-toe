@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import HeaderInternal from './HeaderInternal';
+import HeaderInternal from './components/HeaderInternal';
 import Hashtag from './components/Hashtag';
 import Header from './components/Header';
 import About from './objects/About';

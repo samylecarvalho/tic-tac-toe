@@ -3,7 +3,7 @@
 }
 
 .profile-user > .avatar {
-  margin-bottom: var(--spacing-medum);
+  margin-bottom: var(--spacing-large);
 }
 
 .profile-user > .title {

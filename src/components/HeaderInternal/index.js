@@ -1,8 +1,8 @@
 import React from "react";
 import './style.css';
-import LogoCollab from "../objects/LogoCollab";
-import AboutLink from "../objects/AboutLink";
-import IconClose from "../objects/IconClose";
+import LogoCollab from "../../objects/LogoCollab";
+import AboutLink from "../../objects/AboutLink";
+import IconClose from "../../objects/IconClose";
 
 const HeaderInternal = () => (
   <header className="header-internal" >

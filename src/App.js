@@ -17,7 +17,7 @@ const App = () => (
       <About>
         <HeaderInternal />
         <ProfileUser />
-        <Content />
+        {/* <Content /> */}
       </About>      
   </main>
 );  
